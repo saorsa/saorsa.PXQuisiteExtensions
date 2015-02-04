@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'PXQuisiteExtensions', :exclusive => true do
+  pod "PXQuisiteExtensions", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "PXQuisiteExtensions", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
