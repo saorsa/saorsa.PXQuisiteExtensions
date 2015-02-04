@@ -10,4 +10,6 @@
 
 @interface UIScreenMode (PXQuisite)
 
+- (NSDictionary *)dictionaryRepresentation;
+
 @end

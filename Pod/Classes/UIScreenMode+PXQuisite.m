@@ -10,4 +10,13 @@
 
 @implementation UIScreenMode (PXQuisite)
 
+- (NSDictionary *)dictionaryRepresentation {
+    
+    return @{
+      
+             @"size" : NSStringFromCGSize(self.size),
+             @"pixelAspectRatio" : @(self.pixelAspectRatio)
+    };
+}
+
 @end
