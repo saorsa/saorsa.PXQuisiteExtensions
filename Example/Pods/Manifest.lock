@@ -1,7 +1,7 @@
 PODS:
   - FBSnapshotTestCase (1.5)
   - Kiwi (2.3.1)
-  - PXQuisiteExtensions (0.1.0)
+  - PXQuisiteExtensions (0.3)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -15,6 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
   Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
-  PXQuisiteExtensions: a5480396f6375584272759402f2109e6b207614d
+  PXQuisiteExtensions: 976f736a696c78ed83bf3e0959d01902da547a8a
 
 COCOAPODS: 0.35.0
