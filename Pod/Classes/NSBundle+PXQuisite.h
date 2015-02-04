@@ -10,4 +10,6 @@
 
 @interface NSBundle (PXQuisite)
 
+- (NSDictionary *)dictionaryRepresentation;
+
 @end

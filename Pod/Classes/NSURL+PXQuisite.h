@@ -10,4 +10,6 @@
 
 @interface NSURL (PXQuisite)
 
+- (NSDictionary *)dictionaryRepresentation;
+
 @end
