@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PXQuisiteExtensions"
-  s.version          = "0.1.0"
+  s.version          = "0.3"
   s.summary          = "Extension methods for iOS."
   s.description      = <<-DESC
                        I hate giving descriptions. 
@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/adragolov/PXQuisiteExtensions"
+  s.homepage         = "https://github.com/saorsa/saorsa.PXQuisiteExtensions"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Atanas Dragolov" => "adragolov@gmail.com" }
-  s.source           = { :git => "https://github.com/adragolov/PXQuisiteExtensions.git", :tag => s.version.to_s }
+  s.author           = { "Atanas Dragolov" => "atanas.dragolov@saorsa.bg" }
+  s.source           = { :git => "https://github.com/saorsa/saorsa.PXQuisiteExtensions.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/adragolov'
 
   s.platform     = :ios, '7.0'
