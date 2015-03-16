@@ -1,6 +1,6 @@
 # PXQuisiteExtensions
 
-[![CI Status](http://img.shields.io/travis/saorsa/saorsa.PXQuisiteExtensions.svg?style=flat)](https://travis-ci.org/Atanas Dragolov/PXQuisiteExtensions)
+[![CI Status](http://img.shields.io/travis/saorsa/saorsa.PXQuisiteExtensions.svg?style=flat)](https://travis-ci.org/saorsa/saorsa.PXQuisiteExtensions)
 [![Version](https://img.shields.io/cocoapods/v/PXQuisiteExtensions.svg?style=flat)](http://cocoadocs.org/docsets/PXQuisiteExtensions)
 [![License](https://img.shields.io/cocoapods/l/PXQuisiteExtensions.svg?style=flat)](http://cocoadocs.org/docsets/PXQuisiteExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/PXQuisiteExtensions.svg?style=flat)](http://cocoadocs.org/docsets/PXQuisiteExtensions)
