@@ -26,6 +26,7 @@
 		FF8FC35D1A7BA3FD0056451D /* NSObject_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8FC35C1A7BA3EE0056451D /* NSObject_Tests.m */; };
 		FF8FC3601A7BAD680056451D /* NSString_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8FC35F1A7BAD680056451D /* NSString_Tests.m */; };
 		FFA71B7D1A7CFCC300A5EB4F /* NSDateFormatter_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA71B7C1A7CFCAC00A5EB4F /* NSDateFormatter_Tests.m */; };
+		FFFC26241AB6FDEF005B3394 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = FFFC26231AB6FDEF005B3394 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		FF8FC35C1A7BA3EE0056451D /* NSObject_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_Tests.m; sourceTree = "<group>"; };
 		FF8FC35F1A7BAD680056451D /* NSString_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_Tests.m; sourceTree = "<group>"; };
 		FFA71B7C1A7CFCAC00A5EB4F /* NSDateFormatter_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatter_Tests.m; sourceTree = "<group>"; };
+		FFFC26231AB6FDEF005B3394 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				FFFC26231AB6FDEF005B3394 /* .travis.yml */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* PXQuisiteExtensions */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -282,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFFC26241AB6FDEF005B3394 /* .travis.yml in Resources */,
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
