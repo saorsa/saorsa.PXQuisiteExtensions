@@ -25,3 +25,4 @@
 #import "UIDevice+PXQuisite.h"
 #import "UIScreen+PXQuisite.h"
 #import "UIScreenMode+PXQuisite.h"
+#import "UIView+PXQuisite.h"
