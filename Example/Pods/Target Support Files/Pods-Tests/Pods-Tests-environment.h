@@ -9,7 +9,7 @@
 // FBSnapshotTestCase
 #define COCOAPODS_POD_AVAILABLE_FBSnapshotTestCase
 #define COCOAPODS_VERSION_MAJOR_FBSnapshotTestCase 1
-#define COCOAPODS_VERSION_MINOR_FBSnapshotTestCase 5
+#define COCOAPODS_VERSION_MINOR_FBSnapshotTestCase 6
 #define COCOAPODS_VERSION_PATCH_FBSnapshotTestCase 0
 
 // Kiwi
@@ -21,6 +21,6 @@
 // PXQuisiteExtensions
 #define COCOAPODS_POD_AVAILABLE_PXQuisiteExtensions
 #define COCOAPODS_VERSION_MAJOR_PXQuisiteExtensions 0
-#define COCOAPODS_VERSION_MINOR_PXQuisiteExtensions 3
-#define COCOAPODS_VERSION_PATCH_PXQuisiteExtensions 2
+#define COCOAPODS_VERSION_MINOR_PXQuisiteExtensions 4
+#define COCOAPODS_VERSION_PATCH_PXQuisiteExtensions 0
 

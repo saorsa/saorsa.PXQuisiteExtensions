@@ -25,4 +25,11 @@
  */
 - (void)applyAutoresizeAll;
 
+/**
+    Grabs the contents of the view and provides an UIImage for them.
+ 
+    @param reductionFactor Controls the reduction factor for the image.
+ */
+- (UIImage *)takeScreenshot:(CGFloat)reductionFactor;
+
 @end

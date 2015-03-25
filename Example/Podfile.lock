@@ -1,7 +1,7 @@
 PODS:
-  - FBSnapshotTestCase (1.5)
+  - FBSnapshotTestCase (1.6)
   - Kiwi (2.3.1)
-  - PXQuisiteExtensions (0.3.2)
+  - PXQuisiteExtensions (0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
+  FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
   Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
-  PXQuisiteExtensions: 5b8f130a581a82b775e2a90941b2fe348a3ff1f8
+  PXQuisiteExtensions: 639da538640f71ff23480e5673097c0fc3fd58d7
 
 COCOAPODS: 0.36.0

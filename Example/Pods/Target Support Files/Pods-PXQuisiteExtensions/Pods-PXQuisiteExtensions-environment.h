@@ -9,6 +9,6 @@
 // PXQuisiteExtensions
 #define COCOAPODS_POD_AVAILABLE_PXQuisiteExtensions
 #define COCOAPODS_VERSION_MAJOR_PXQuisiteExtensions 0
-#define COCOAPODS_VERSION_MINOR_PXQuisiteExtensions 3
-#define COCOAPODS_VERSION_PATCH_PXQuisiteExtensions 2
+#define COCOAPODS_VERSION_MINOR_PXQuisiteExtensions 4
+#define COCOAPODS_VERSION_PATCH_PXQuisiteExtensions 0
 

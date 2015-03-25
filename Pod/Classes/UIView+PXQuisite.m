@@ -15,4 +15,17 @@
     self.autoresizingMask = UIViewAutoresizingAll;
 }
 
+- (UIImage *)takeScreenshot:(CGFloat)reductionFactor {
+    
+    UIGraphicsBeginImageContext(CGSizeMake(self.frame.size.width/reductionFactor, self.frame.size.height/reductionFactor));
+    
+    [self drawViewHierarchyInRect:CGRectMake(0, 0, self.frame.size.width/reductionFactor, self.frame.size.height/reductionFactor) afterScreenUpdates:YES];
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
+
 @end
