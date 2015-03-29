@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PXQuisiteExtensions"
-  s.version          = "0.4"
+  s.version          = "0.4.1"
   s.summary          = "Extension methods for iOS."
   s.description      = <<-DESC
                        I hate giving descriptions. 
@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit', 'CoreData', 'CoreGraphics', 'QuartzCore'
+  s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
