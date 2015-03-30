@@ -88,7 +88,7 @@ static char const* const animationStyleStackKey = "animationStyleStackKey";
 
         [self.view.layer addSublayer:rotateLayer];
         
-        [rotateLayer addAnimation:[self makeRotationAnimation:UINavigationRotationRightToLeft duration:0.75f] forKey:nil];
+        [rotateLayer addAnimation:[self makeRotationAnimation:UINavigationRotationRightToLeft duration:0.45f] forKey:nil];
         
         objc_setAssociatedObject(self, rotationLayerKey, rotateLayer, OBJC_ASSOCIATION_ASSIGN);
         
@@ -151,7 +151,7 @@ static char const* const animationStyleStackKey = "animationStyleStackKey";
 
         [self.view.layer addSublayer:rotateLayer];
         
-        [rotateLayer addAnimation:[self makeRotationAnimation:UINavigationRotationLeftToRight duration:0.75f] forKey:nil];
+        [rotateLayer addAnimation:[self makeRotationAnimation:UINavigationRotationLeftToRight duration:0.45f] forKey:nil];
         
         objc_setAssociatedObject(self, rotationLayerKey, rotateLayer, OBJC_ASSOCIATION_ASSIGN);
         

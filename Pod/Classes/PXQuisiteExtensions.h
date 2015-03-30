@@ -27,3 +27,5 @@
 #import "UIScreenMode+PXQuisite.h"
 #import "UIView+PXQuisite.h"
 #import "UIImage+PXQuisite.h"
+
+#import "UINavigationController+PXQuisite.h"
