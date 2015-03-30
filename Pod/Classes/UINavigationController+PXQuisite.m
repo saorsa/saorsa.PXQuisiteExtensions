@@ -9,7 +9,6 @@
 #import "UINavigationController+PXQuisite.h"
 #import <QuartzCore/QuartzCore.h>
 #import <objc/runtime.h>
-#import "JRSwizzle.h"
 
 #ifdef HAS_STUATS_BAR
 #define PAGE_VERTICAL_WIDTH                      320.0f
@@ -270,13 +269,7 @@ static char const* const animationStyleStackKey = "animationStyleStackKey";
     
     [[self animationStyleStack] pushRotation:NO];
     
-    [[self class] jr_swizzleMethod:@selector(storeAnimationStyleAndPushViewController:animated:)
-            withMethod:@selector(pushViewController:animated:) error:nil];
-    
     [self pushViewController:viewController animated:animated];
-    
-    [[self class] jr_swizzleMethod:@selector(pushViewController:animated:)
-            withMethod:@selector(storeAnimationStyleAndPushViewController:animated:) error:nil];
 }
 
 - (void)retrieveAnimationStyleAndPopViewControllerAnimated:(BOOL)animated {
@@ -287,13 +280,7 @@ static char const* const animationStyleStackKey = "animationStyleStackKey";
     }
     else {
         
-        [[self class] jr_swizzleMethod:@selector(retrieveAnimationStyleAndPopViewControllerAnimated:)
-                withMethod:@selector(popViewControllerAnimated:) error:nil];
-        
         [self popViewControllerAnimated:animated];
-        
-        [[self class] jr_swizzleMethod:@selector(popViewControllerAnimated:)
-                withMethod:@selector(retrieveAnimationStyleAndPopViewControllerAnimated:) error:nil];
     }
 }
 

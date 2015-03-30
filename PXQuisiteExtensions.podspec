@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PXQuisiteExtensions"
-  s.version          = "0.4.2"
+  s.version          = "0.4.3"
   s.summary          = "Extension methods for iOS."
   s.description      = <<-DESC
                        I hate giving descriptions. 
