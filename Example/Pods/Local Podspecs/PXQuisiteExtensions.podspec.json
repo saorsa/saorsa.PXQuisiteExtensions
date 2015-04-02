@@ -1,6 +1,6 @@
 {
   "name": "PXQuisiteExtensions",
-  "version": "0.4.3",
+  "version": "0.5",
   "summary": "Extension methods for iOS.",
   "description": "                       I hate giving descriptions. \n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
   "homepage": "https://github.com/saorsa/saorsa.PXQuisiteExtensions",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/saorsa/saorsa.PXQuisiteExtensions.git",
-    "tag": "0.4.3"
+    "tag": "0.5"
   },
   "platforms": {
     "ios": "7.0"
@@ -26,5 +26,10 @@
     "UIKit",
     "CoreGraphics",
     "QuartzCore"
-  ]
+  ],
+  "dependencies": {
+    "LINQ4Obj-C": [
+
+    ]
+  }
 }

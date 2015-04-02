@@ -1,7 +1,9 @@
 PODS:
   - FBSnapshotTestCase (1.6)
   - Kiwi (2.3.1)
-  - PXQuisiteExtensions (0.4.3)
+  - LINQ4Obj-C (1.2.0)
+  - PXQuisiteExtensions (0.5):
+    - LINQ4Obj-C
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -15,6 +17,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
   Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
-  PXQuisiteExtensions: 5f74ec360d6c424fa8133795fb51c736e1fbbbd5
+  LINQ4Obj-C: d64fbf6ef62b3273b32f70ff53edb48dd17a80e6
+  PXQuisiteExtensions: 1d11968a905c40c3e81903a7dfc6c92b0dfeeca4
 
 COCOAPODS: 0.36.0
