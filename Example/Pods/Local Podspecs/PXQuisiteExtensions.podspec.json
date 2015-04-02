@@ -25,7 +25,8 @@
   "frameworks": [
     "UIKit",
     "CoreGraphics",
-    "QuartzCore"
+    "QuartzCore",
+    "CoreData"
   ],
   "dependencies": {
     "LINQ4Obj-C": [

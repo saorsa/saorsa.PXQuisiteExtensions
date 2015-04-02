@@ -18,6 +18,6 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
   Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
   LINQ4Obj-C: d64fbf6ef62b3273b32f70ff53edb48dd17a80e6
-  PXQuisiteExtensions: 1d11968a905c40c3e81903a7dfc6c92b0dfeeca4
+  PXQuisiteExtensions: c4095312155d50aca0a2123fe18baee2d976a136
 
 COCOAPODS: 0.36.0

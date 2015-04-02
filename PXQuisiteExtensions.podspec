@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore'
+  s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'CoreData'
   s.dependency 'LINQ4Obj-C'
 end
