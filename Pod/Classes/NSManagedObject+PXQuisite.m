@@ -18,9 +18,14 @@
     return [self dictionaryWithValuesForKeys:allAttributeKeys];
 }
 
++ (NSString *)entityName {
+    
+    return NSStringFromClass(self.class);
+}
+
 + (NSFetchRequest *)fetchRequestForEntity {
     
-    NSString * entityClassname = NSStringFromClass(self);
+    NSString * entityClassname = [self entityName];
     
     return [NSFetchRequest fetchRequestWithEntityName:entityClassname];
 }

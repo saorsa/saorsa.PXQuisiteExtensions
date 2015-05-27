@@ -13,6 +13,8 @@
 
 - (NSDictionary *)dictionaryRepresentation;
 
++ (NSString *)entityName;
+
 + (NSFetchRequest *)fetchRequestForEntity;
 
 + (NSArray *)fetchAllInContext:(NSManagedObjectContext *)context
