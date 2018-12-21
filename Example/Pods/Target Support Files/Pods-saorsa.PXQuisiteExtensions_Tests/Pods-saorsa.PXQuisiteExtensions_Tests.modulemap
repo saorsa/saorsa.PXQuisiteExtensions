@@ -1,0 +1,6 @@
+framework module Pods_saorsa_PXQuisiteExtensions_Tests {
+  umbrella header "Pods-saorsa.PXQuisiteExtensions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

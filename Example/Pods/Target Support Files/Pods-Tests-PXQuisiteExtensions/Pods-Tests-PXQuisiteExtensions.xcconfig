@@ -1,1 +1,0 @@
-PODS_TESTS_PXQUISITEEXTENSIONS_OTHER_LDFLAGS = -framework "CoreData" -framework "CoreGraphics" -framework "QuartzCore" -framework "UIKit"

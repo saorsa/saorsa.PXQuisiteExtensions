@@ -1,0 +1,6 @@
+framework module saorsa_PXQuisiteExtensions {
+  umbrella header "saorsa.PXQuisiteExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

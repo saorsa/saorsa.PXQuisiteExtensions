@@ -1,11 +1,11 @@
-# PXQuisiteExtensions
+# saorsa.PXQuisiteExtensions
 
-[![CI Status](http://img.shields.io/travis/saorsa/saorsa.PXQuisiteExtensions.svg?style=flat)](https://travis-ci.org/saorsa/saorsa.PXQuisiteExtensions)
-[![Version](https://img.shields.io/cocoapods/v/PXQuisiteExtensions.svg?style=flat)](http://cocoadocs.org/docsets/PXQuisiteExtensions)
-[![License](https://img.shields.io/cocoapods/l/PXQuisiteExtensions.svg?style=flat)](http://cocoadocs.org/docsets/PXQuisiteExtensions)
-[![Platform](https://img.shields.io/cocoapods/p/PXQuisiteExtensions.svg?style=flat)](http://cocoadocs.org/docsets/PXQuisiteExtensions)
+[![CI Status](https://img.shields.io/travis/Atanas Dragolov/saorsa.PXQuisiteExtensions.svg?style=flat)](https://travis-ci.org/Atanas Dragolov/saorsa.PXQuisiteExtensions)
+[![Version](https://img.shields.io/cocoapods/v/saorsa.PXQuisiteExtensions.svg?style=flat)](https://cocoapods.org/pods/saorsa.PXQuisiteExtensions)
+[![License](https://img.shields.io/cocoapods/l/saorsa.PXQuisiteExtensions.svg?style=flat)](https://cocoapods.org/pods/saorsa.PXQuisiteExtensions)
+[![Platform](https://img.shields.io/cocoapods/p/saorsa.PXQuisiteExtensions.svg?style=flat)](https://cocoapods.org/pods/saorsa.PXQuisiteExtensions)
 
-## Usage
+## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -13,16 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-PXQuisiteExtensions is available through [CocoaPods](http://cocoapods.org). To install
+saorsa.PXQuisiteExtensions is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "PXQuisiteExtensions"
+```ruby
+pod 'saorsa.PXQuisiteExtensions'
+```
 
 ## Author
 
-Atanas Dragolov, atanas.dragolov@saorsa.bg
+Atanas Dragolov, adragolov@gmail.com
 
 ## License
 
-PXQuisiteExtensions is available under the MIT license. See the LICENSE file for more info.
-
+saorsa.PXQuisiteExtensions is available under the MIT license. See the LICENSE file for more info.

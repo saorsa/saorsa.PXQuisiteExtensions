@@ -1,0 +1,6 @@
+framework module LINQ4Obj_C {
+  umbrella header "LINQ4Obj-C-umbrella.h"
+
+  export *
+  module * { export * }
+}

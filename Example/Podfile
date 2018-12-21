@@ -1,12 +1,16 @@
-source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
 
-target 'PXQuisiteExtensions', :exclusive => true do
-  pod "PXQuisiteExtensions", :path => "../"
-end
+platform :ios, '11.0'
 
-target 'Tests', :exclusive => true do
-  pod "PXQuisiteExtensions", :path => "../"
+target 'saorsa.PXQuisiteExtensions_Example' do
+  pod 'saorsa.PXQuisiteExtensions', :path => '../'
 
-  pod 'Kiwi'
-  pod 'FBSnapshotTestCase'
+  target 'saorsa.PXQuisiteExtensions_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
 end

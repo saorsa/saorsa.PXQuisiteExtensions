@@ -1,0 +1,6 @@
+framework module Pods_saorsa_PXQuisiteExtensions_Example {
+  umbrella header "Pods-saorsa.PXQuisiteExtensions_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
