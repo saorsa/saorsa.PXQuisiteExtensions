@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A40374E4F4F61A451580EBAD2B6256D6"
+               BuildableName = "saorsa_PXQuisiteExtensions.framework"
+               BlueprintName = "saorsa.PXQuisiteExtensions"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
                BuildableName = "saorsa.PXQuisiteExtensions_Example.app"
                BlueprintName = "saorsa.PXQuisiteExtensions_Example"

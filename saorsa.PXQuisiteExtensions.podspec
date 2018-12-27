@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'saorsa.PXQuisiteExtensions'
-  s.version          = '0.7'
+  s.version          = '0.8'
   s.summary          = 'A collection of useful extension methods for iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ for the CoreGraphics, CoreData and UIKit classes.
   s.homepage         = 'https://github.com/saorsa/saorsa.PXQuisiteExtensions'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Atanas Dragolov' => 'adragolov@gmail.com' }
+  s.author           = { 'Saorsa' => 'adragolov@gmail.com' }
   s.source           = { :git => 'https://github.com/saorsa/saorsa.PXQuisiteExtensions.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
